@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    border: 1px solid rgba(255, 0, 0, 0);
+    
+}
+.container{
+    width: 100%;
+    height: 765vh;
+}
+.nav{
+    width: 100%;
+    height: 10.6vh;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    background-image: url(./Screenshot\ \(4\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.fil{
+    position: relative;
+    width: 120px;
+    height:50px ;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: rgb(214, 239, 134);
+    left: 159vh;
+    z-index: 99;
+}
+.ali{
+   position: relative;
+   right: 13vh;
+   bottom: 3px;
+   color: white;
+   background-color: rgb(255, 0, 0);
+
+}
+.im{
+    position: relative;
+    bottom: 40px;
+    right: 4px;
+    width: 1520px;
+}
+input{
+    position: relative;
+    left: 158px;
+    width: 119.5vh;
+    height: 8vh;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 91;
+    
+
+}
+::placeholder{
+    position: relative;
+    left: 20px;
+}
+.f1{
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    top: 1.2vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.m1{
+    width: 100px;
+    height:30px;
+    position: relative;
+    left: 20px;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.m2{
+    width: 70px;
+    height:30px;
+    position: relative;
+    left: 30px;
+    border-radius: 5px;
+    border: 0px solid;
+}
+.m3, .m4, .m5{
+    width: 70px;
+    height:30px;
+    position: relative;
+    left: 150vh;
+    background-color: white;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius:8px;
+}
+.m3{
+    width: 120px;
+    border-radius: 8px;
+}
+.m4{
+    width: 40px;
+    margin-left: 10px;
+}
+.m5{
+    width: 50px;
+    margin-left: 10px;
+}
+.home{
+    position: relative;
+    top: 7px;
+    width: 100%;
+    height: 42vh;
+    background-color: #fe6436;
+    
+    
+    
+}
+.home2{
+    width: 65%;
+    height: 42vh;
+    float: right;
+    background-image: url(./1790x572.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom:42vh;
+}
+.home3{
+    position: relative;
+    top: 0px;
+    width: 35%;
+    height: 42vh;
+    background-color: #fe6436;
+    text-align: center;
+}
+.buy{
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0px solid;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 60px;
+}
+.super{
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    top: 20px;
+}
+.for{
+    position: relative;
+    top: 35px;
+}
+.sale{
+    width: 100%;
+    height: 39vh;
+    position: relative;
+    bottom: 31vh;
+    border-radius: 10px;
+    display: flex;
+    border-top:none;
+    background-color: rgb(242, 242, 242);
+}
+.box{
+    width: 13.8%;
+    height: 37vh;
+    margin-left: 5px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.prof{
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    top: 23px;
+    background-color: rgb(242, 242, 242);
+    
+    
+}
+.profit{
+    position: relative;
+    left: 20px;
+    top: 13px;
+}
+.up{
+    position: relative;
+    left: 120px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(255, 106, 0);
+    border: 0px solid;
+    color: white;
+    border-radius: 5px;
+    bottom: 13px;
+    
+}
+.s1{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;
+    background-image: url(./15987564_800.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.s2{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;
+    background-image: url(./556153753_max.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.s3{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;background-image: url(./protivoudarnyi-cexol-dlya-iphone-11-pro-max-black_6bda2705e07c423d7092303225f789332020111915212080788qVo59Cr9P9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.s4{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;
+    background-image: url(./744119478_max.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.s5{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;
+    background-image: url(./Tsunami-Gaming-Keyboard-MK-61-Pro-Sakura-Pink-Blue-Switch-01.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.s6{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;
+    background-image: url(./boat-stone-350-bluetooth-speaker-with-up-to-12-hours-of-playtime-blue-digital-o492579290-p590962264-0-202202152110.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.s7{
+    width: 94%;
+    height: 23vh;
+    border-radius: 10px;
+    position: relative;
+    left: 3%;
+    top: 2%;
+    background-image: url(./2-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1px solid rgba(152, 152, 152, 0.158);
+}
+.uzs{
+    margin-top: 10px;
+    width: 195px;
+    position: relative;
+    left: 6px;
+    height: 25px;
+    border: 0px solid ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.car{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.free{
+    position: relative;
+    left: 15px;
+    color: rgb(48, 198, 48);
+    top: 20px;
+}
+.top{
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    bottom: 31vh;
+    display: flex;
+}
+.tufta{
+    width: 100%;
+    height: 12vh;position: relative;
+    bottom: 31vh;
+}
+.back{
+    position: relative;
+    left: 10px;
+    top: 45px;
+    
+    
+}
+span{
+    color: rgba(0, 0, 0, 0.323);
+    
+}
+.k1{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 14px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    background-image: url(./download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.k2{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 14px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    background-image: url(./download\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.k3{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 14px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    background-image: url(./download\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.k4{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 14px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    background-image: url(./download\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.k5{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 14px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    background-image: url(./download\ \(4\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.k6{
+    width: 32vh;
+    height: 32vh;
+    margin-left: 14px;
+    position: relative;
+    top: 20px;
+    border-radius: 30px;
+    background-image: url(./download\ \(5\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fortext{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    bottom: 31vh;
+    display: flex;
+}
+.text1{
+    width: 32vh;
+    height: 25vh;
+    margin-left: 14px;
+    
+}
+.text2{
+    width: 32vh;
+    height: 25vh;
+    margin-left: 14px;
+}
+.text3{
+    width: 32vh;
+    height: 25vh;
+    margin-left: 14px;
+}
+.text4{
+    width: 32vh;
+    height: 25vh;
+    margin-left: 14px;
+}
+.text5{
+    width: 32vh;
+    height: 25vh;
+    margin-left: 14px;
+}
+.text6{
+    width: 32vh;
+    height: 25vh;
+    margin-left: 14px;
+}
+.bought{
+    width: 30px;
+    position: relative;
+    right: 7px;
+    top: 10px;
+}
+.set{
+    position: relative;
+    left: 13px;
+    top: 5px;
+    font-size: 17px;
+}
+.pought{
+    position: relative;
+    left: 40px;
+    bottom: 12px;
+}
+.fix{
+    position: relative;
+    left: 13px;
+    top: 5px;
+}
+.fre{
+    position: relative;
+    left: 15px;
+    color: rgb(58, 173, 58);
+    top: 0px;
+}
+.forbutton{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    bottom:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more{
+    width: 98%;
+    height: 10vh;
+    border: 0px;
+    border-radius: 100px;
+    position: relative;
+    background-color: rgb(229, 228, 228);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.forend{
+    width:100% ;
+    height: 20vh;
+    position: relative;
+    bottom: 22vh;
+    background-color: rgb(226, 226, 226);;
+}
+.d1{
+    display:flex;
+    position: relative;
+    top: 20px;
+    
+}
+.d2{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.g1{
+    display:flex;
+    position: relative;
+    top: 20px;
+    
+}
+.g2{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+}
+.g3{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    right: 14vh;
+}
+.g4{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    right: 21vh;
+}
+.g5{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    right: 20vh;
+}
+.blabla{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    bottom: 22vh;
+    background-color: rgb(226, 226, 226);;
+    /* background-image: url(./blabla.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+
+}
+.blog{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    bottom: 22vh;
+    display: flex;
+    background-color: rgb(226, 226, 226);;
+}
+.sh{
+    position: relative;
+    left: 100px;
+    top: 20px;
+    margin-left: 100px;
+}
+.see{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.play{
+    position: relative;
+    width: 500px;
+    left: 150px;
+    top: 20px;
+}
+
+
+
+
